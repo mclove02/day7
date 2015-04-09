@@ -1,3 +1,39 @@
+* {
+box-sizing: border-box;
+}
+
+
+#address {
+/*
+    width: 500px;
+    height: 400px;
+*/
+    position: relative;
+    float: left;
+    padding: -10px;
+}
+
+  #map-canvas {
+    width: 500px;
+    height: 400px;
+    background-color: #CCC;
+  }
+
+.gradi {
+    background-image: linear-gradient(#F63D12, transparent 100%);
+}
+
+#page-contact #address {
+    margin-top: 100px;
+/*    margin-top: 10;*/
+    margin-left: 10%;
+}
+
+#page-contact {
+    background-color: #F63D12;
+    height: 50em;
+}
+
 #bg-image {
 /*
     margin-top: 15px;
@@ -52,7 +88,7 @@ h1:hover {
 }
 
 #tagline {
-    position: absolute;
+    position: absolute; 
     width: 100vw;
     padding: 7em;
     z-index: 100;
@@ -79,5 +115,42 @@ h1:hover {
     width: 100vw;
 }
 
+#work #project {
+    padding-right: 15px;
+}
 
+#work .bg-orange {
+    background-color: darkorange;
+/*4
+    padding: 0px 30px 30px 30px;
+    text-align: center;
+    box-sizing: border-box;
+*/
+}
 
+#work .bg-ivory {
+    background-color: royalblue;   
+}
+    
+#work .bg-brown {
+        background-color: slategrey;
+}
+
+#con-address {
+    position: absolute;
+    float: right;
+    width: 100vw;
+    padding: 7em;
+    z-index: 100;
+    text-decoration: none;
+}
+
+#contact {
+    position: relative;
+}
+
+#page-contact #address{
+    margin-top: 100px;
+/*    margin-top: 10%;*/
+    margin-left: 10%;
+}
